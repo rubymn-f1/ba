@@ -1,4 +1,4 @@
-class Admin::PresentationsController < Admin::AbstractModelController
+class Admin::PresentationsController < Admin::ResourceController
   protect_from_forgery :except => :update # Too much hassle to make it work with external javascript...
   model_class PresentationPage
   

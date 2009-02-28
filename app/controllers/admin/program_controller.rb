@@ -1,4 +1,4 @@
-class Admin::ProgramController < Admin::AbstractModelController
+class Admin::ProgramController < Admin::ResourceController
   model_class ProgramPage
   
   def edit

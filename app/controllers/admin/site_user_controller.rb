@@ -1,3 +1,3 @@
-class Admin::SiteUserController < Admin::AbstractModelController
+class Admin::SiteUserController < Admin::ResourceController
   model_class SiteUser  
 end

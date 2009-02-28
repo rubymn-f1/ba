@@ -1,3 +1,3 @@
-class Admin::PriceController < Admin::AbstractModelController
+class Admin::PriceController < Admin::ResourceController
   model_class Price  
 end
