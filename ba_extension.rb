@@ -133,7 +133,7 @@ private
     admin.page.edit.add :layout_row, "edit_page_happening"
     
     # Add javascript that only displays Happening when page type is HappeningPage
-    Admin::PageController.class_eval do
+    Admin::PagesController.class_eval do
       before_filter :edit_page_happening_js
       def edit_page_happening_js
         include_javascript 'admin/edit_page_happening.js'
